@@ -22,7 +22,7 @@ st.title(" Smart RAG Chatbot")
 st.caption("Chat with your PDF or ask anything")
 
 # -------- SIDEBAR --------
-st.sidebar.header("⚙️ Controls")
+st.sidebar.header("Controls")
 
 if st.sidebar.button(" Clear Chat"):
     st.session_state.messages = []
